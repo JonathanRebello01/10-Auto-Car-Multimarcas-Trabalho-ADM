@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+body{
+    font-size: 100%;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.principal{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(-45deg, #8a0e07, #4e0400, #000000);
+    background-size: 400% 400%;
+    animation: backgroundTransitions 10s ease-in-out infinite;
+
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.img1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 6px;
+    left: 24px;
+}
+
+.titulo{
+    color: #ECD6C4;
+    font-family: 'Righteous';
+    width: 100%;
+    padding-bottom: 36px;
+    border-bottom: #ECD6C4 solid 0.4px;
+}
+
+.texto-titulo{
+    display: flex;
+    justify-content: center;
+}
+
+
+@keyframes backgroundTransitions {
+    0% {
+        background-position: 0% 80%;
+    }
+    50% {
+        background-position: 80% 100%;
+    }
+    100%{
+        background-position: 0% 90%;
+    }
+    
+}
